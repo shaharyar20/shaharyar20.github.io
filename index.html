@@ -7,37 +7,65 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>Shaharyar</h1>
-    <p>Masters Student in Computational Mechanics @ TUM</p>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
-    </nav>
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="container">
+      <h1>Hi, I'm <span class="highlight">Shaharyar</span></h1>
+      <p>Masters Student in Computational Mechanics @ TUM</p>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
   </header>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>I’m passionate about computational mechanics, CFD, and numerical methods.</p>
+  <!-- About Section -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>
+        I’m passionate about computational mechanics, CFD, and numerical methods.  
+        Currently pursuing my Masters at TUM, I work on flow simulations, 
+        numerical algorithms, and visualization.
+      </p>
+    </div>
   </section>
 
-  <section id="projects">
-    <h2>Projects</h2>
-    <ul>
-      <li>Flow Around Cylinder (LBM, JAX)</li>
-      <li>Other CFD & Mechanics Work</li>
-    </ul>
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <div class="card">
+          <h3>Flow Around Cylinder (LBM, JAX)</h3>
+          <p>Implemented the Lattice Boltzmann Method with BGK model and visualized vorticity & velocity fields.</p>
+        </div>
+        <div class="card">
+          <h3>CFD Notes</h3>
+          <p>Exploring discretization, turbulence models, and solvers. Documentation in progress.</p>
+        </div>
+        <div class="card">
+          <h3>Future Work</h3>
+          <p>Interested in coupling ML with LBM for accelerating flow simulations.</p>
+        </div>
+      </div>
+    </div>
   </section>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
-    <p>GitHub: <a href="https://github.com/your-username">github.com/your-username</a></p>
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+      <p>GitHub: <a href="https://github.com/your-username" target="_blank">github.com/your-username</a></p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/your-profile" target="_blank">linkedin.com/in/your-profile</a></p>
+    </div>
   </section>
 
+  <!-- Footer -->
   <footer>
-    <p>© 2025 Shaharyar</p>
+    <p>© 2025 Shaharyar | Built with ❤️</p>
   </footer>
 </body>
 </html>
